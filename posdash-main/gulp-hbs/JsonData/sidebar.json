@@ -1,0 +1,651 @@
+[
+    {
+        "name": "index",
+        "title": "Dashboard",
+        "short_title": "dashboard",
+        "href": "backend/index",
+        "icon_class": "las la-home"
+    },
+    {
+        "name": "product",
+        "title": "Products",
+        "short_title": "product",
+        "href": "#product",
+        "icon_class": "las la-home",
+        "expanded_icon_class": "las la-angle-down iq-arrow-right arrow-hover",
+        "collapse_icon_class": "las la-angle-right iq-arrow-right arrow-active",
+        "children": [
+            {
+                "name": "listproduct",
+                "title": "List Product",
+                "href": "backend/page-list-product",
+                "icon_class": "las la-minus"
+            },
+            {
+                "name": "add-product",
+                "title": "Add Product",
+                "href": "backend/page-add-product",
+                "icon_class": "las la-minus"
+            }
+        ]
+    },
+    {
+        "name": "category",
+        "title": "Categories",
+        "short_title": "category",
+        "href": "#category",
+        "icon_class": "las la-home",
+        "expanded_icon_class": "las la-angle-down iq-arrow-right arrow-hover",
+        "collapse_icon_class": "las la-angle-right iq-arrow-right arrow-active",
+        "children": [
+            {
+                "name": "list-category",
+                "title": "List Category",
+                "href": "backend/page-list-category",
+                "icon_class": "las la-minus"
+            },
+            {
+                "name": "add-category",
+                "title": "Add Category",
+                "href": "backend/page-add-category",
+                "icon_class": "las la-minus"
+            }
+        ]
+    },
+    {
+        "name": "sale",
+        "title": "Sale",
+        "short_title": "sale",
+        "href": "#sale",
+        "icon_class": "las la-home",
+        "expanded_icon_class": "las la-angle-down iq-arrow-right arrow-hover",
+        "collapse_icon_class": "las la-angle-right iq-arrow-right arrow-active",
+        "children": [
+            {
+                "name": "list-sale",
+                "title": "List Sale",
+                "href": "backend/page-list-sale",
+                "icon_class": "las la-minus"
+            },
+            {
+                "name": "add-sale",
+                "title": "Add Sale",
+                "href": "backend/page-add-sale",
+                "icon_class": "las la-minus"
+            }
+        ]
+    },
+    {
+        "name": "purchase",
+        "title": "Purchases",
+        "short_title": "purchases",
+        "href": "#purchase",
+        "icon_class": "las la-home",
+        "expanded_icon_class": "las la-angle-down iq-arrow-right arrow-hover",
+        "collapse_icon_class": "las la-angle-right iq-arrow-right arrow-active",
+        "children": [
+            {
+                "name": "list-purchases",
+                "title": "List Purchases",
+                "href": "backend/page-list-purchase",
+                "icon_class": "las la-minus"
+            },
+            {
+                "name": "add-purchase",
+                "title": "Add purchase",
+                "href": "backend/page-add-purchase",
+                "icon_class": "las la-minus"
+            }
+        ]
+    },
+    {
+        "name": "return",
+        "title": "Rturns",
+        "short_title": "return",
+        "href": "#return",
+        "icon_class": "las la-home",
+        "expanded_icon_class": "las la-angle-down iq-arrow-right arrow-hover",
+        "collapse_icon_class": "las la-angle-right iq-arrow-right arrow-active",
+        "children": [
+            {
+                "name": "list-returns",
+                "title": "List Returns",
+                "href": "backend/page-list-returns",
+                "icon_class": "las la-minus"
+            },
+            {
+                "name": "add-return",
+                "title": "Add Return",
+                "href": "backend/page-add-return",
+                "icon_class": "las la-minus"
+            }
+        ]
+    },
+    {
+        "name": "people",
+        "title": "People",
+        "short_title": "people",
+        "href": "#people",
+        "icon_class": "las la-home",
+        "expanded_icon_class": "las la-angle-down iq-arrow-right arrow-hover",
+        "collapse_icon_class": "las la-angle-right iq-arrow-right arrow-active",
+        "children": [
+            {
+                "name": "customers",
+                "title": "Customers",
+                "href": "backend/page-list-customers",
+                "icon_class": "las la-minus"
+            },
+            {
+                "name": "add-customers",
+                "title": "Add Customers",
+                "href": "backend/page-add-customers",
+                "icon_class": "las la-minus"
+            },
+            {
+                "name": "users",
+                "title": "Users",
+                "href": "backend/page-list-users",
+                "icon_class": "las la-minus"
+            },
+            {
+                "name": "add-users",
+                "title": "Add Users",
+                "href": "backend/page-add-users",
+                "icon_class": "las la-minus"
+            },
+            {
+                "name": "suppliers",
+                "title": "Suppliers",
+                "href": "backend/page-list-suppliers",
+                "icon_class": "las la-minus"
+            },
+            {
+                "name": "add-suppliers",
+                "title": "Add Suppliers",
+                "href": "backend/page-add-supplier",
+                "icon_class": "las la-minus"
+            }
+        ]
+    },
+    {
+        "name": "reports",
+        "title": "Reports",
+        "short_title": "reports",
+        "href": "backend/page-report",
+        "icon_class": "las la-home"
+    },    
+    {
+        "name": "otherpage",
+        "title": "other page",
+        "short_title": "other page",
+        "href": "#otherpage",
+        "icon_class": "lab la-wpforms iq-arrow-left",
+        "expanded_icon_class": "las la-angle-down iq-arrow-right arrow-hover",
+        "collapse_icon_class": "las la-angle-right iq-arrow-right arrow-active",
+        "children": [
+            {
+                "name": "user",
+                "title": "User Details",
+                "href": "#user",
+                "icon_class": "las la-user-cog",
+               "expanded_icon_class": "las la-angle-down iq-arrow-right arrow-hover",
+                "collapse_icon_class": "las la-angle-right iq-arrow-right arrow-active",
+                "children": [
+                    {
+                        "name": "user-profile",
+                        "title": "User Profile",
+                        "href": "app/user-profile",
+                        "icon_class": "las la-minus"
+                    },
+                    {
+                        "name": "user-add",
+                        "title": "User Add",
+                        "href": "app/user-add",
+                        "icon_class": "las la-minus"
+                    },
+                    {
+                        "name": "user-list",
+                        "title": "User List",
+                        "href": "app/user-list",
+                        "icon_class": "las la-minus"
+                    }
+                ]
+            },
+            {
+                "name": "ui",
+                "title": "UI Elements",
+                "short_title": "Ui Kit",
+                "href": "#ui",
+                "icon_class": "lab la-uikit iq-arrow-left",
+                "expanded_icon_class": "las la-angle-down iq-arrow-right arrow-hover",
+                "collapse_icon_class": "las la-angle-right iq-arrow-right arrow-active",
+                "children": [
+                    {
+                        "name": "ui-avatars",
+                        "title": "Avatars",
+                        "href": "backend/ui-avatars",
+                        "icon_class": "las la-minus"
+                    },
+                    {
+                        "name": "ui-alerts",
+                        "title": "Alerts",
+                        "href": "backend/ui-alerts",
+                        "icon_class": "las la-minus"
+                    },
+                    {
+                        "name": "ui-badges",
+                        "title": "Badges",
+                        "href": "backend/ui-badges",
+                        "icon_class": "las la-minus"
+                    },
+                    {
+                        "name": "ui-breadcrumb",
+                        "title": "Breadcrumb",
+                        "href": "backend/ui-breadcrumb",
+                        "icon_class": "las la-minus"
+                    },
+                    {
+                        "name": "ui-buttons",
+                        "title": "Buttons",
+                        "href": "backend/ui-buttons",
+                        "icon_class": "las la-minus"
+                    },
+                    {
+                        "name": "ui-buttons-group",
+                        "title": "Buttons Group",
+                        "href": "backend/ui-buttons-group",
+                        "icon_class": "las la-minus"
+                    },
+                    {
+                        "name": "ui-boxshadow",
+                        "title": "Box Shadow",
+                        "href": "backend/ui-boxshadow",
+                        "icon_class": "las la-minus"
+                    },
+                    {
+                        "name": "ui-colors",
+                        "title": "Colors",
+                        "href": "backend/ui-colors",
+                        "icon_class": "las la-minus"
+                    },
+                    {
+                        "name": "ui-cards",
+                        "title": "Cards",
+                        "href": "backend/ui-cards",
+                        "icon_class": "las la-minus"
+                    },
+                    {
+                        "name": "ui-carousel",
+                        "title": "Carousel",
+                        "href": "backend/ui-carousel",
+                        "icon_class": "las la-minus"
+                    },
+                    {
+                        "name": "ui-grid",
+                        "title": "Grid",
+                        "href": "backend/ui-grid",
+                        "icon_class": "las la-minus"
+                    },
+                    {
+                        "name": "ui-helper-classes",
+                        "title": "Helper classes",
+                        "href": "backend/ui-helper-classes",
+                        "icon_class": "las la-minus"
+                    },
+                    {
+                        "name": "ui-images",
+                        "title": "Images",
+                        "href": "backend/ui-images",
+                        "icon_class": "las la-minus"
+                    },
+                    {
+                        "name": "ui-list-group",
+                        "title": "list Group",
+                        "href": "backend/ui-list-group",
+                        "icon_class": "las la-minus"
+                    },
+                    {
+                        "name": "ui-media-object",
+                        "title": "Media",
+                        "href": "backend/ui-media-object",
+                        "icon_class": "las la-minus"
+                    },
+                    {
+                        "name": "ui-modal",
+                        "title": "Modal",
+                        "href": "backend/ui-modal",
+                        "icon_class": "las la-minus"
+                    },
+                    {
+                        "name": "ui-notifications",
+                        "title": "Notifications",
+                        "href": "backend/ui-notifications",
+                        "icon_class": "las la-minus"
+                    },
+                    {
+                        "name": "ui-pagination",
+                        "title": "Pagination",
+                        "href": "backend/ui-pagination",
+                        "icon_class": "las la-minus"
+                    },
+                    {
+                        "name": "ui-popovers",
+                        "title": "Popovers",
+                        "href": "backend/ui-popovers",
+                        "icon_class": "las la-minus"
+                    },
+                    {
+                        "name": "ui-progressbars",
+                        "title": "Progressbars",
+                        "href": "backend/ui-progressbars",
+                        "icon_class": "las la-minus"
+                    },
+                    {
+                        "name": "ui-typography",
+                        "title": "Typography",
+                        "href": "backend/ui-typography",
+                        "icon_class": "las la-minus"
+                    },
+                    {
+                        "name": "ui-tabs",
+                        "title": "Tabs",
+                        "href": "backend/ui-tabs",
+                        "icon_class": "las la-minus"
+                    },
+                    {
+                        "name": "ui-tooltips",
+                        "title": "Tooltips",
+                        "href": "backend/ui-tooltips",
+                        "icon_class": "las la-minus"
+                    },
+                    {
+                        "name": "ui-embed-video",
+                        "title": "Video",
+                        "href": "backend/ui-embed-video",
+                        "icon_class": "las la-minus"
+                    }
+                ]
+            },            
+            {
+                "name": "auth",
+                "title": "Authentication",
+                "short_title": "Auth",
+                "href": "#auth",
+                "icon_class": "las la-torah iq-arrow-left",
+                "expanded_icon_class": "las la-angle-down iq-arrow-right arrow-hover",
+                "collapse_icon_class": "las la-angle-right iq-arrow-right arrow-active",
+                "children": [
+                    {
+                        "name": "auth-sign-in",
+                        "title": "Login",
+                        "href": "backend/auth-sign-in",
+                        "icon_class": "las la-minus"
+                    },
+                    {
+                        "name": "auth-sign-up",
+                        "title": "Register",
+                        "href": "backend/auth-sign-up",
+                        "icon_class": "las la-minus"
+                    },
+                    {
+                        "name": "auth-recoverpw",
+                        "title": "Recover Password",
+                        "href": "backend/auth-recoverpw",
+                        "icon_class": "las la-minus"
+                    },
+                    {
+                        "name": "auth-confirm-mail",
+                        "title": "Confirm Mail",
+                        "href": "backend/auth-confirm-mail",
+                        "icon_class": "las la-minus"
+                    },
+                    {
+                        "name": "auth-lock-screen",
+                        "title": "Lock Screen",
+                        "href": "backend/auth-lock-screen",
+                        "icon_class": "las la-minus"
+                    }
+                ]
+            },
+            {
+                "name": "form",
+                "title": "Forms",
+                "short_title": "Forms",
+                "href": "#form",
+                "icon_class": "lab la-wpforms iq-arrow-left",
+                "expanded_icon_class": "las la-angle-down iq-arrow-right arrow-hover",
+                "collapse_icon_class": "las la-angle-right iq-arrow-right arrow-active",
+                "children": [
+                    {
+                        "name": "form-controls",
+                        "title": "Form Controls",
+                        "href": "#form-controls",
+                        "icon_class": "lab la-wpforms",
+                        "expanded_icon_class": "las la-minus iq-arrow-right arrow-hover",
+                        "collapse_icon_class": "las la-plus iq-arrow-right arrow-active",
+                        "children": [
+                            {
+                                "name": "form-layout",
+                                "title": "Form Elements",
+                                "href": "backend/form-layout",
+                                "icon_class": "las la-minus"
+                            },
+                            {
+                                "name": "form-input-group",
+                                "title": "Form Input",
+                                "href": "backend/form-input-group",
+                                "icon_class": "las la-minus"
+                            },
+                            {
+                                "name": "form-validation",
+                                "title": "Form Validation",
+                                "href": "backend/form-validation",
+                                "icon_class": "las la-minus"
+                            },
+                            {
+                                "name": "form-switch",
+                                "title": "Form Switch",
+                                "href": "backend/form-switch",
+                                "icon_class": "las la-minus"
+                            },
+                            {
+                                "name": "form-chechbox",
+                                "title": "Form Checkbox",
+                                "href": "backend/form-chechbox",
+                                "icon_class": "las la-minus"
+                            },
+                            {
+                                "name": "form-radio",
+                                "title": "Form Radio",
+                                "href": "backend/form-radio",
+                                "icon_class": "las la-minus"
+                            },
+                            {
+                                "name": "form-textarea",
+                                "title": "Form Textarea",
+                                "href": "backend/form-textarea",
+                                "icon_class": "las la-minus"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "form-widget",
+                        "title": "Form Widget",
+                        "href": "#form-widget",
+                        "icon_class": "lab la-elementor",
+                        "expanded_icon_class": "las la-minus iq-arrow-right arrow-hover",
+                        "collapse_icon_class": "las la-plus iq-arrow-right arrow-active",
+                        "children": [
+                            {
+                                "name": "form-datepicker",
+                                "title": "Datepicker",
+                                "href": "backend/form-datepicker",
+                                "icon_class": "las la-minus"
+                            },
+                            {
+                                "name": "form-select",
+                                "title": "Select2",
+                                "href": "backend/form-select",
+                                "icon_class": "las la-minus"
+                            },
+                            {
+                                "name": "form-file-uploader",
+                                "title": "File Upload",
+                                "href": "backend/form-file-uploader",
+                                "icon_class": "las la-minus"
+                            },
+                            {
+                                "name": "form-quill",
+                                "title": "Form quill",
+                                "href": "backend/form-quill",
+                                "icon_class": "las la-minus"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "form-wizard",
+                        "title": "Forms Wizard",
+                        "href": "#form-wizard",
+                        "icon_class": "las la-archive",
+                        "expanded_icon_class": "las la-minus iq-arrow-right arrow-hover",
+                        "collapse_icon_class": "las la-plus iq-arrow-right arrow-active",
+                        "children": [
+                            {
+                                "name": "form-wizard",
+                                "title": "Simple Wizard",
+                                "href": "backend/form-wizard",
+                                "icon_class": "las la-minus"
+                            },
+                            {
+                                "name": "form-wizard-validate",
+                                "title": "Validate Wizard",
+                                "href": "backend/form-wizard-validate",
+                                "icon_class": "las la-minus"
+                            },
+                            {
+                                "name": "form-wizard-vertical",
+                                "title": "Vertical Wizard",
+                                "href": "backend/form-wizard-vertical",
+                                "icon_class": "las la-minus"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "table",
+                "title": "Table",
+                "short_title": "Table",
+                "href": "#table",
+                "icon_class": "las la-table iq-arrow-left",
+               "expanded_icon_class": "las la-angle-down iq-arrow-right arrow-hover",
+                "collapse_icon_class": "las la-angle-right iq-arrow-right arrow-active",
+                "children": [
+                    {
+                        "name": "tables-basic",
+                        "title": "Basic Tables",
+                        "href": "backend/tables-basic",
+                        "icon_class": "las la-minus"
+                    },
+                    {
+                        "name": "table-data",
+                        "title": "Data Table",
+                        "href": "backend/table-data",
+                        "icon_class": "las la-minus"
+                    },
+                    {
+                        "name": "table-editable",
+                        "title": "Editable Table",
+                        "href": "backend/table-editable",
+                        "icon_class": "las la-minus"
+                    },
+                    {
+                        "name": "table-tree",
+                        "title": "Table Tree",
+                        "href": "backend/table-tree",
+                        "icon_class": "las la-minus"
+                    }
+                ]
+            },
+            {
+                "name": "contact",
+                "title": "Contact",
+                "href": "#contact",
+                "icon_class": "las la-id-card",
+                "expanded_icon_class": "las la-angle-down iq-arrow-right arrow-hover",
+                "collapse_icon_class": "las la-angle-right iq-arrow-right arrow-active",
+                "children": [
+                    {
+                        "name": "contact-list",
+                        "title": "Contact List",
+                        "href": "backend/contact-list",
+                        "icon_class": "las la-minus"
+                    },
+                    {
+                        "name": "contact-detail",
+                        "title": "Contact Details",
+                        "href": "backend/contact-detail",
+                        "icon_class": "las la-minus"
+                    }
+                ]
+            },
+            {
+                "name": "pricing",
+                "title": "Pricing",
+                "href": "#pricing",
+                "icon_class": "las la-coins",
+                "expanded_icon_class": "las la-angle-down iq-arrow-right arrow-hover",
+                "collapse_icon_class": "las la-angle-right iq-arrow-right arrow-active",
+                "children": [
+                    {
+                        "name": "pricing",
+                        "title": "Pricing 1",
+                        "href": "backend/pricing",
+                        "icon_class": "las la-minus"
+                    },
+                    {
+                        "name": "pricing-2",
+                        "title": "Pricing 2",
+                        "href": "backend/pricing-2",
+                        "icon_class": "las la-minus"
+                    }
+                ]
+            },
+            {
+                "name": "pages-error",
+                "title": "Error",
+                "href": "#pages-error",
+                "icon_class": "las la-exclamation-triangle",
+                "expanded_icon_class": "las la-angle-down iq-arrow-right arrow-hover",
+                "collapse_icon_class": "las la-angle-right iq-arrow-right arrow-active",
+                "children": [
+                    {
+                        "name": "pages-error",
+                        "title": "Error 404",
+                        "href": "backend/pages-error",
+                        "icon_class": "las la-minus"
+                    },
+                    {
+                        "name": "pages-error-500",
+                        "title": "Error 500",
+                        "href": "backend/pages-error-500",
+                        "icon_class": "las la-minus"
+                    }
+                ]
+            },
+            {
+                "name": "pages-blank-page",
+                "title": "Blank Page",
+                "href": "backend/pages-blank-page",
+                "icon_class": "las la-pager"
+            },
+            {
+                "name": "pages-maintenance",
+                "title": "Maintenance",
+                "href": "backend/pages-maintenance",
+                "icon_class": "las la-cubes"
+            } 
+        ]
+    }
+]

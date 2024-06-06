@@ -1,0 +1,77 @@
+{
+    "appName": "POS Dash",
+    "output" : "dist",
+    "logoName": "",
+    "faviconName": "",
+    "loaderName": "",
+    "imgMinify": "false",
+    "dark": "false",
+    "pages" : {
+        "skip" : {
+            "app" : [
+            ],
+            "backend" : [
+            ]
+        }
+    },
+    "backend": {
+        "layout": "dashboard-1",
+        "assets": {
+            "fonts": [
+                "./src/assets/fonts/**/*.*"
+            ],
+            "style": [
+                "./src/assets/scss/backend.scss",
+                "./node_modules/slick-carousel/slick/slick.css",
+                "./node_modules/slick-carousel/slick/slick-theme.css",
+                "./node_modules/magnific-popup/dist/magnific-popup.css",
+                "./node_modules/select2/dist/css/select2.min.css",
+                "./node_modules/quill/dist/quill.snow.css",
+                "./node_modules/datatables.net-bs4/css/dataTables.bootstrap4.min.css",
+                "./node_modules/cropperjs/dist/cropper.min.css",
+                "./node_modules/bootstrap-select/dist/css/bootstrap-select.min.css"
+            ],
+            "js": {
+                "required": [
+                    "./node_modules/jquery/dist/jquery.js",
+                    "./{directory}/assets/js/popper.min.js",
+                    "./node_modules/bootstrap/dist/js/bootstrap.min.js",
+                    "./node_modules/jquery.appear/jquery.appear.js",
+                    "./node_modules/waypoints/lib/jquery.waypoints.js",
+                    "./node_modules/counterup2/dist/index.js",
+                    "./node_modules/select2/dist/js/select2.min.js",
+                    "./node_modules/smooth-scrollbar/dist/smooth-scrollbar.js",
+                    "./node_modules/datatables.net/js/jquery.dataTables.min.js",
+                    "./node_modules/datatables.net-bs4/js/dataTables.bootstrap4.min.js",
+                    "./{directory}/assets/js/validator.min.js"
+                ],
+                "optional": [
+                    "./node_modules/bootstrap-select/dist/js/bootstrap-select.min.js",
+                    "./node_modules/jquery-bar-rating/dist/jquery.barrating.min.js",
+                    "./{directory}/assets/js/rating.min.js",
+                    "./node_modules/magnific-popup/dist/jquery.magnific-popup.min.js",
+                    "./node_modules/slick-carousel/slick/slick.min.js",
+                    "./node_modules/sweetalert2/dist/sweetalert2.min.js",
+                    "./node_modules/js-treeview/dist/treeview.min.js",
+                    "./node_modules/quill/dist/quill.min.js",
+                    "./node_modules/bstreeview/dist/js/bstreeview.min.js",
+                    "./{directory}/assets/js/apexcharts.js",
+                    "./{directory}/assets/js/core.js",
+                    "./{directory}/assets/js/charts.js",
+                    "./{directory}/assets/js/animated.js",
+                    "./{directory}/assets/js/kelly.js",
+                    "./{directory}/assets/js/maps.js",
+                    "./{directory}/assets/js/worldLow.js",
+                    "./{directory}/assets/js/country2.js",
+                    "./{directory}/assets/js/material.js",
+                    "./{directory}/assets/js/morris.min.js",
+                    "./{directory}/assets/js/raphael-min.js",
+                    "./{directory}/assets/js/highcharts.js",
+                    "./{directory}/assets/js/highcharts-3d.js",
+                    "./{directory}/assets/js/highcharts-more.js",
+                    "./node_modules/cropperjs/dist/cropper.min.js"
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,10 @@
+/node_modules
+/dist
+/.dist
+/gulp+hbs
+/gulp+html
+/webpack+html
+.DS_Store
+.idea
+/laravel/node_modules
+/laravel/vendor
